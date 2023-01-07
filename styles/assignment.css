@@ -68,12 +68,19 @@ con
     margin-right: 10%;
     margin-left: 5%;
 }
+.shape{
+    margin-left: 5%;
+   
+}
 .footer{
     background-image: url(images/watch.png);
-    
+    width: 1000px;
+    height: 250px;
      background-repeat: no-repeat;
     
     display: flex;
+    align-items: center;
+    
     
 }
 .footer2{
@@ -107,6 +114,7 @@ con
 }
 .footer4{
     margin-right: 30%;
+    margin-left: 3%;
 }
 .footer5 button{
     margin-top: 10%;
