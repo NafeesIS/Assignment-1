@@ -4,6 +4,7 @@
     background-image: url(images/banner/banner3.png);
     background-size: cover;  
     background-position: center;
+    margin-bottom: 30px;
 }
 .content{
     width: 100%;
@@ -29,6 +30,66 @@
     padding: 15px 0;
     text-align: center;
     margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid cyan;
+    background: darkcyan;
+    color: lightgreen;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+.content-2{
+  margin-left: 10%;
+  font-family: sans-serif;
+}
+con
+#img{
+    margin-left: 20%;
+}
+
+.myplan h1{
+    text-align: center;
+    margin-right: 4%;
+    margin-bottom: 5%;
+}
+.work{
+    display: flex;
+}
+
+.element{
+    margin-right: 10%;
+    margin-left: 5%;
+}
+.footer{
+    background-image: url(images/watch.png);
+    
+    position: absolute;
+    background-repeat: no-repeat;
+    display: flex;
+    
+}
+.footer2{
+   position: absolute;
+
+}
+.footer2 h1{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-left: 10%;
+}
+.footer2 button{
+    margin-left: 10%;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    
     border-radius: 25px;
     font-weight: bold;
     border: 2px solid cyan;
