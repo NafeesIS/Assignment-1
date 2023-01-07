@@ -71,8 +71,8 @@ con
 .footer{
     background-image: url(images/watch.png);
     
-    position: absolute;
-    background-repeat: no-repeat;
+     background-repeat: no-repeat;
+    
     display: flex;
     
 }
@@ -86,6 +86,7 @@ con
 }
 .footer2 button{
     margin-left: 10%;
+    
     width: 200px;
     padding: 15px 0;
     text-align: center;
@@ -97,5 +98,30 @@ con
     color: lightgreen;
     position: relative;
     cursor: pointer;
+}
+.footer3{
+    margin-top: 10%;
+    display: flex;
+    background-color:black;
+    color: white;
+}
+.footer4{
+    margin-right: 30%;
+}
+.footer5 button{
+    margin-top: 10%;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
     
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid cyan;
+    background: darkcyan;
+    color: lightgreen;
+    position: relative;
+    cursor: pointer;
+}
+.footer5 h1,input{
+    margin-left: 2%;
 }
