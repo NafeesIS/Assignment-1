@@ -1,0 +1,40 @@
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/banner/banner3.png);
+    background-size: cover;  
+    background-position: center;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 23%;
+    transform: translateY();
+    text-align: center;
+    
+    color: white;
+    
+}
+.content h2{
+    font-size: 40px;
+
+}
+.content p{
+    font-size: 10px;
+}
+.content button{
+    
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid cyan;
+    background: darkcyan;
+    color: lightgreen;
+    position: relative;
+    cursor: pointer;
+    
+}
