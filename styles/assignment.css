@@ -2,9 +2,12 @@
     width: 100%;
     height: 100vh;
     background-image: url(images/banner/banner3.png);
+    
     background-size: cover;  
     background-position: center;
     margin-bottom: 30px;
+   
+    
 }
 .content{
     width: 100%;
@@ -76,8 +79,7 @@ con
     background-image: url(images/watch.png);
     width: 1000px;
     height: 250px;
-     background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     
@@ -111,9 +113,10 @@ con
     display: flex;
     background-color:black;
     color: white;
+    background-size: cover;
 }
 .footer4{
-    margin-right: 30%;
+    margin-right: 20%;
     margin-left: 3%;
 }
 .footer5 button{
@@ -132,4 +135,7 @@ con
 }
 .footer5 h1,input{
     margin-left: 2%;
+}
+.footer5{
+    margin-right: 3%;
 }
