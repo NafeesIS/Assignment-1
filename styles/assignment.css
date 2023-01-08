@@ -77,7 +77,7 @@ con
 }
 .footer{
     background-image: url(images/watch.png);
-    width: 1000px;
+    width: 90%;
     height: 250px;
     background-repeat: no-repeat;
     display: flex;
