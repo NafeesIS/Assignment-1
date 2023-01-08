@@ -4,7 +4,7 @@
     background-image: url(images/banner/banner3.png);
     
     background-size: cover;  
-    background-position: center;
+    
     margin-bottom: 30px;
    
     
@@ -12,10 +12,13 @@
 .content{
     width: 100%;
     position: absolute;
+    
     top: 30%;
-    left: 23%;
+    
     transform: translateY();
     text-align: center;
+    transform: translateX(-15%);
+    text-align: right;
     
     color: white;
     
@@ -72,16 +75,17 @@ con
     margin-left: 5%;
 }
 .shape{
-    margin-left: 15%;
+    margin-left: 5%;
    
 }
 .footer{
     background-image: url(images/watch.png);
-    width: 90%;
+    width: 1000px;
     height: 250px;
     background-repeat: no-repeat;
     display: flex;
-    align-items: center;
+
+    
     
     
 }
